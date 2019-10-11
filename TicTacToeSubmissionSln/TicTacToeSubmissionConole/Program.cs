@@ -9,7 +9,7 @@ namespace TicTacToeSubmissionConole
             ConsoleColor oldColor = Console.ForegroundColor;
 
             Console.SetCursorPosition(10,2);
-            Console.ForegroundColor = ConsoleColor.White;
+            Console.ForegroundColor = ConsoleColor.Blue;
             Console.WriteLine("Let You Play :-) Don't Be Rude Ok");
 
             var ticTacToe = new TicTacToe();
@@ -17,7 +17,7 @@ namespace TicTacToeSubmissionConole
             ticTacToe.RunX();
 
             ticTacToe.RunO();
-            Console.ForegroundColor = oldColor ;
+            Console.ForegroundColor = ConsoleColor.Cyan;
 
 
             Console.SetCursorPosition(20, 25);
